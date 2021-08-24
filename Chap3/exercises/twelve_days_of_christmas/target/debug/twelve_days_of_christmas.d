@@ -1,0 +1,1 @@
+/Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap3/exercises/twelve_days_of_christmas/target/debug/twelve_days_of_christmas: /Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap3/exercises/twelve_days_of_christmas/src/main.rs
