@@ -13,6 +13,29 @@ fn main() {
 	println!("{} {}",hello,world);
 
 
+	let s3 = String::from("hello world");
+	let word2 = first_word_rework(&s3);
+
+	//s3.clear(); -> This will make error
+	println!("word2 -> {}",word2);
+
+
+
+
+
+	let my_string = String::from("hello world");
+
+	let word3 = first_word_final(&my_string[..]);
+
+	let my_string_literal = "hello world";
+
+	let word4 = first_word_final(&my_string_literal[..]);
+
+	let word5 = first_word_final(my_string_literal);
+
+	println!("word3 -> {}",word3);
+	println!("word4 -> {}",word4);
+	println!("word5 -> {}",word5);
 }
 
 fn first_word(s: &String) -> usize {
@@ -30,11 +53,24 @@ fn first_word(s: &String) -> usize {
 fn first_word_rework(s: &String) -> &str {
 	let bytes = s.as_bytes();
 
-	for (i, &item) in bytes.iter().enurmerate() {
+	for (i, &item) in bytes.iter().enumerate() {
 		if item == b' ' {
-			return &s[0..1];
+			return &s[0..i];
 		}
 	}
 
 	&s[..]
 }
+
+fn first_word_final(s: &str) -> &str {
+	let bytes = s.as_bytes();
+
+	for (i, &item) in bytes.iter().enumerate() {
+		if item == b' ' {
+			return &s[0..i];
+		}
+	}
+
+	&s[..]
+}
+
