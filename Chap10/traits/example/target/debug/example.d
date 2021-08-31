@@ -1,1 +1,0 @@
-/Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap10/traits/example/target/debug/example: /Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap10/traits/aggregator/src/lib.rs /Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap10/traits/example/src/main.rs
