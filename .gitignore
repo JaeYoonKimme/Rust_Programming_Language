@@ -1,0 +1,5 @@
+#ignore mac .DS_Store file
+.DS_Store
+
+#ignore exercism file
+.exercism
