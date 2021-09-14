@@ -1,0 +1,1 @@
+/Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap13/closures/basic_example/workout1.0/target/debug/basic_example: /Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap13/closures/basic_example/workout1.0/src/main.rs
