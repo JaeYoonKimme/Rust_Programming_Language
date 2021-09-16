@@ -1,1 +1,0 @@
-/Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap13/iterators/basic_examples/map/target/debug/map: /Users/yoon/Desktop/Yoon/Rust_Programming_Language/Chap13/iterators/basic_examples/map/src/main.rs
