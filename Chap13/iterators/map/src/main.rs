@@ -11,15 +11,13 @@ fn main() {
 
 	/*
 	   Question1
-	   I can not understand why we should annotate 'v2' a specific type
-	   When i didn't annotate its type, it made compile error. (error message : type annotation needed)
+	   I can not understand why we should give 'v2' a specific type (Vec<_>)
+	   When i didn't give its type, it made compile error. (error message : type annotation needed)
 
 	   Question2
-	   And what does 'Vec<_>' means? 
-	   I have tried to change it as Vec<i31>, and it worked without problem.
+	   what does 'Vec<_>' means? 
+	   When i changed it as Vec<i31>, it worked without problem.
 
-	   I think Vec<_> means that the variable is Vector whatever data type it includes.
-	   But still confused about why that annotation is needed...
 
 
 	   
@@ -27,7 +25,7 @@ fn main() {
 	   Answer
 
 	   I searched about how collect() works and got some answer of my question.
-	   In rust documentation of Trait Iterator, 
+	   Rust documentation of Trait Iterator said,
 	   "Note that we needed the : Vec<i32> on the left-hand side. This is because we could collect into"
 
 	   https://doc.rust-lang.org/std/iter/trait.Iterator.html#method.collect
@@ -37,7 +35,7 @@ fn main() {
 	   let v2 = v1.iter().map(|x| x + 1).collect::<Vec<_>>(); 
 
 
-
+	   and,
 	   underscore '_' means partial type hint.
 	   <SomeType>. -> This syntax of rust is called 'Turbofish'
        
