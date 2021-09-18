@@ -10,7 +10,7 @@ Basically I followed the textbook materials from the [offical Rust website](http
 * [The Rust Programming Language](https://doc.rust-lang.org/book/title-page.html)  
 by Steve Klabnik and Carol Nichols, with contributions from the Rust Community  
 
-**Chapters**
+**Tutorial Book Chapters**
 * [Chapter1 : Getting Started](https://github.com/JaeYoonKimme/Rust_Programming_Language/tree/main/Chapters/Chap1)
 * [Chapter2 : Programming a Guessing Game](https://github.com/JaeYoonKimme/Rust_Programming_Language/tree/main/Chapters/Chap2/guessing_game)
 * [Chapter3 : Common Programming Concepts](https://github.com/JaeYoonKimme/Rust_Programming_Language/tree/main/Chapters/Chap3)
