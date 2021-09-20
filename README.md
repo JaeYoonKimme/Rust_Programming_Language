@@ -1,7 +1,7 @@
 # Rust_Programming_Language  
 This is Repository for recording my exercises of studying Rust Programming Language.  
 
-Basically I followed the textbook materials from the [offical Rust website](https://www.rust-lang.org),  rewriting the example codes of every chapters with comment(my own explanation and questions).   
+Basically I followed the textbook materials from the [official Rust website](https://www.rust-lang.org),  rewriting the example codes of every chapters with comment(my own explanation and questions).   
 
 ### Study Materials ###  
 
