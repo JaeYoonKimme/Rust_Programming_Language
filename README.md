@@ -27,8 +27,8 @@ by Steve Klabnik and Carol Nichols, with contributions from the Rust Community
 
 
 
-### Other Exercise Problems Solved ###
-* Exercise Problem Sources : [Exercism](https://exercism.org/tracks/rust)  
+### Exercise Problems Sources ###
+* [Exercism](https://exercism.org/tracks/rust)  
 
 
 
