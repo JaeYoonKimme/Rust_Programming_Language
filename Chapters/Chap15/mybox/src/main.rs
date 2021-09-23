@@ -1,6 +1,5 @@
 use std::ops::Deref;
 
-
 /*
    Implimentation of Deref trait.
    Deref trait requires us to implement one method named 'deref'.
@@ -28,5 +27,5 @@ fn main() {
 	let y = MyBox::new(x);
 
 	assert_eq!(5, *y); // *(y.deref()) 
-
+	// '*' operator will call deref
 }
